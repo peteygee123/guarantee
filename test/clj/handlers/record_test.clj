@@ -15,6 +15,7 @@
 
 (deftest creates-records-test
   (testing "Returns a 400 when given malformed data")
+  ;; Not the greatest tests I've ever written
   (testing "returns a 201 when given 'good?' data"
     (with-redefs [d/transact (constantly (atom {}))
                   d/entity (fn [db db-id] (util/build-record "Me, Peter, my@email.com, red, 10/18/1985"))]

@@ -19,6 +19,9 @@ Hi! Thanks for taking the time to look at this.
 3. `(go)`
 
 # How to run from commandline
+
+You'll need to create the files before running this. Sorry.
+
 `clj -X:cli '[:files :comma-file-path]' '"/home/peter/Downloads/testfilecomma"' '[:files :pipe-file-path]' '"/home/peter/Downloads/testfilepipe"' '[:files :space-file-path]' '"/home/peter/Downloads/testfilespace"** :output 3`
 
 # Useful commands

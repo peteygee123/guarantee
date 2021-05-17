@@ -1,5 +1,3 @@
-# TODO
-
 Hi! Thanks for taking the time to look at this.
 
 # Some notes / assumptions

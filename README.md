@@ -44,6 +44,8 @@ http -v GET localhost:4500/records/name
 
 ## CLI
 
+You'll need to create the files before running this. Sorry.
+
 `clj -X:cli '[:files :comma-file-path]' '"/home/peter/Downloads/testfilecomma"' '[:files :pipe-file-path]' '"/home/peter/Downloads/testfilepipe"' '[:files :space-file-path]' '"/home/peter/Downloads/testfilespace"' :output 1`
 
 

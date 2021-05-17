@@ -22,10 +22,7 @@ You'll need to create the files before running this. Sorry.
 
 `clj -X:cli '[:files :comma-file-path]' '"/home/peter/Downloads/testfilecomma"' '[:files :pipe-file-path]' '"/home/peter/Downloads/testfilepipe"' '[:files :space-file-path]' '"/home/peter/Downloads/testfilespace"** :output 3`
 
-# Useful commands
-
-## Load data through the api
-http -v POST localhost:4500/records  data='Me | Peter | peter@me.me | red | 10/20/2020'
+# Useful 
 
 ## Create API post requests
 

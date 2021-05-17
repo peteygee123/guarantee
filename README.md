@@ -1,4 +1,4 @@
-Hi! Thanks for taking the time to look at this.
+Hi! Thanks for taking the time to look at this. There were a few things I was a little unsure of, but left it a little late.
 
 # Some notes / assumptions
 * The file will not contain any of the possible delimiters " ", ",", "|" as part of the data we care about

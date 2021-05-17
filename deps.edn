@@ -1,0 +1,19 @@
+{:paths   ["src/clj" "resources" "classes"]
+ :deps    {org.clojure/clojure {:mvn/version "1.10.3"}
+           com.cerner/clara-rules {:mvn/version "0.20.0"}
+           com.datomic/datomic-free {:mvn/version "0.9.5697"}
+           com.stuartsierra/component {:mvn/version "1.0.0"}
+           http-kit/http-kit {:mvn/version "2.4.0"}
+           clojure.java-time {:mvn/version "0.3.2"}
+           metosin/reitit {:mvn/version "0.5.5"}
+           vvvvalvalval/scope-capture {:mvn/version "0.3.2"}
+           org.clojure/tools.namespace {:mvn/version "0.2.11"}
+           org.clojure/tools.logging {:mvn/version "1.1.0"}}
+ :aliases {:dev     {:replace-paths ["src/clj" "resources" "personal"]
+                     :extra-deps  {vvvvalvalval/scope-capture {:mvn/version "0.3.2"}}}
+           :cli {:extra-paths ["src/clj" "resources" "personal"]
+                 :exec-fn guarantee.system/run-cli
+                 :exec-args {:files {:comma-file-path nil
+                                     :pipe-file-path nil
+                                     :space-file-path nil}
+                             :output 2}}}}
